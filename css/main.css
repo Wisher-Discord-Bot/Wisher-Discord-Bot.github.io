@@ -26,10 +26,11 @@ html {
 }
 
 body {
-  position: absolute;
-  top: 5px;
-  margin: 0px 20px;
-  font-size: 1rem;
+  background-image: url("../img/wpp/synth.gif");
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.5;
   text-align: left;
@@ -43,32 +44,37 @@ div {
 }
 
 .title {
+  font-family: "Gabriola", sans-serif;
+  margin: 0;
   text-align: center;
-  font-size: 2.5em;
+  font-size: 3em;
 }
 
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
 }
 
-.header {
-  margin: 0 50px;
+.main {
+  background-color: rgba(216, 191, 216, 0.3);
+  border-radius: 8px;
+  padding: 15px;
+  margin: 20px 50px;
 }
 
 .logo {
-  width: 40%;
+  width: 50%;
 }
 
 p {
   vertical-align: middle;
+  font-size: 1.2em;
 }
 
 .button {
-  box-shadow: 2px 2px 1px 0px #fabdff;
-  background: linear-gradient(to bottom, #e08dda 5%, #e6b1de 100%);
+  box-shadow: 2px 2px 1px 0px #d31ac7;
+  background: linear-gradient(to bottom, #ff53f4 5%, #ff0ada 100%);
   background-color: #e08dda;
   border-radius: 19px;
   display: inline-block;
@@ -79,10 +85,46 @@ p {
   text-decoration: none;
 }
 .button:hover {
-  background: linear-gradient(to bottom, #e6b1de 5%, #e08dda 100%);
-  background-color: #e6b1de;
+  background: linear-gradient(to bottom, #ff0ada 5%, #ff53f4 100%);
+  background-color: #e7a3e7;
 }
 .button:active {
   position: relative;
   top: 1px;
+}
+
+.menu {
+  background-color: #d65dce;
+  box-shadow: 2px 2px 1px 0px #d835cd;
+  display: table;
+  width: 98%;
+  margin: 5px auto 50px auto;
+  border-radius: 5px;
+}
+
+.menu a {
+  display: table-cell;
+  max-width: 0px;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(255, 203, 252);
+  font-weight: bold;
+}
+
+.menu a:hover {
+  color: white;
+}
+
+.menu a.middle {
+  border-right: 5px solid-white;
+}
+
+.nav {
+  display: inline;
+}
+
+.footer {
+  height: 100px;
+  background-color: #e7a3e7;
 }
