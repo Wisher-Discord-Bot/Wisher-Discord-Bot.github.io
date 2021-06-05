@@ -20,7 +20,7 @@ recomendação: "Visual Studio Code" ou "Atom"
 
 ## Para começar a editar o site, digite no prompt:
 ```bat
-cd %LOCAL-DE-DOWNLOAD% EX.: %userprofile%/documents/GitHub/Wisher-Discord-Bot.github.io
+cd %LOCAL-DE-DOWNLOAD% EX.: %userprofile%/documents/GitHub
 
 git clone https://github.com/Wisher-Discord-Bot/Wisher-Discord-Bot.github.io.git
 ```
